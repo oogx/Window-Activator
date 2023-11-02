@@ -1,5 +1,6 @@
 # Window-Activator
 Activates windows 10/11 with 1 click
+Make sure you run it with Admin Permissions
 - Used the ImGui Standalone base
 - Uses msguides server to activate
 
