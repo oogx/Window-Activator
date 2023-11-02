@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\UI\UI.cpp">
+      <Filter>Main\Gui\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Drawn\Drawing.cpp">
+      <Filter>Main\Gui\Drawn</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui_widgets.cpp">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui_tables.cpp">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui_impl_win32.cpp">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui_draw.cpp">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui_demo.cpp">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui.cpp">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gui\UI\UI.h">
+      <Filter>Main\Gui\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Drawn\Drawing.h">
+      <Filter>Main\Gui\Drawn</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imstb_truetype.h">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imstb_textedit.h">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imstb_rectpack.h">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imgui_internal.h">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imgui_impl_win32.h">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imgui_impl_dx11.h">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imgui.h">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imconfig.h">
+      <Filter>Main\Dependencies\ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{1158ec01-6742-4671-8c9d-9ca2b0635b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Gui">
+      <UniqueIdentifier>{f71e5f49-41de-4e05-bf51-2c62bfbb35d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Gui\UI">
+      <UniqueIdentifier>{6f1758bd-7a5b-406d-95dd-ca985fbcac48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Gui\Drawn">
+      <UniqueIdentifier>{efab3b2c-00ef-498e-8feb-70aca396c2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Dependencies">
+      <UniqueIdentifier>{0e06528f-83a1-4f1f-8d82-e98f1147cc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Dependencies\ImGui">
+      <UniqueIdentifier>{93ff2369-8170-4823-99d8-585a6cbdd2b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
