@@ -5,7 +5,6 @@ LPCSTR Drawing::WindowName = "Window's Activator";
 ImVec2 Drawing::WindowSize = { 500, 300 };
 ImGuiWindowFlags Drawing::WindowFlags = ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoResize;
 bool Drawing::UiOpen = true;
-int CurrentPage = 1;
 
 BOOL IsRunAsAdministrator() {
     BOOL fIsRunAsAdmin = FALSE;
@@ -73,7 +72,4 @@ void Drawing::Draw() {
         };
         ImGui::End();
 	}
-
-	if ( GetAsyncKeyState(VK_F1) &1 )
-		UiOpen = !UiOpen;
 }
